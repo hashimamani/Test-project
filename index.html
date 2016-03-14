@@ -27,53 +27,132 @@
 
 <div id="wrapper">
 
-      <div id="header">
-           <center><h3>CYTONN INTERN MANAGEMENT PORTAL</h3><center>
+      <div id="header" align="center">
+          <h3>REGISTRATION FORM</h3>
 
            <hr>           
       </div>
 
-      <div id="links">
-           <center>
+      <div id="links" align="center">
+          
            	
                    <table width="50%" >
-                         <center><th bgcolor="#41A317">
+                        <th bgcolor="#41A317">
                            <a href="index.html">HOME</a></th>
-                           </center> 
+                       
 
-                           <center> <th bgcolor="#41A317">
-                           <a href="departments.html">DEPARTMENTS</a></th></center> 
+                        <th bgcolor="#41A317">
+                           <a href="departments.html">DEPARTMENTS</a></th>
 
-                           <center> <th bgcolor="#41A317">
-                            <a href="login.html">LOGIN</a></th><center> 
+                        <th bgcolor="#41A317">
+                            <a href="login.html">LOGIN</a></th>
 
                           
                          
                    </table> 
 
-           </center>
+         
 
       </div>
 
-      <div id="body">
-              <center>
+      <div id="body" align="center">
+             
                   <table width=50%>
                      <tr>
-                         <td>
-                               <center><img src=interns.jpeg width=50%></center>
-                               <p>
-              	                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                </p>  
+                         <td> 
+                              <fieldset>
+                              <legend>Register</legend>  
+                                <font color = "red"><u><h1>Enter your Registration Details in this  Form</h1></u></font>
+                          
+                   <form>       
+
+                          
+
+                                     <br>
+                                    Name: <input type="text" name="lastname">
+
+                                    <br><br>
+
+                                    <b>Enter your year of Study:</b>
+  
+                                      <select name="Years">
+                                            <option value="1st year">First Year</option>
+                                            <option value="2nd year">Second Year</option>
+                                            <option value="3rd year" selected="selected">Third Year</option>
+                                            <option value="4th year">Fourth Year</option>
+                                            <option value="5th year">Fifth Year</option>
+                                      </select>
+
+
+                                        <br><br><b>Choose a semester:</b>
+                                    <select name="Sem">
+                                          <option value="sem 1">Trimester 1 </option>
+                                          <option value="sem 2">Trimester  2</option>
+                                          <option value="sem 3" selected="selected">Trimeste3  </option>
+                                    </select> 
+
+                                           <br><br><b><u>Gender</u></b><br>
+                                         <input type="radio" name="sex" value="male">Male<br>
+                                         <input type="radio" name="sex" value="female">Female <hr>
+
+
+
+                             <h3><u>Units Selection</u></h3>
+                                          <input type="checkbox" name="units" value="ICS 2201">ICS 2201 Introduction to IT<br>
+                                        <input type="checkbox" name="units" value="ICS 2202">ICS 2202 Introduction to programming<br>
+                                        <input type="checkbox" name="units" value="ICS 2203">ICS 2203 Internet Programming<br>
+                                        <input type="checkbox" name="units" value="SMA 1000">SMA 1000 Foundations of Maths<br>
+                                        <input type="checkbox" name="units" value="SMA 2204">SMA 2201 Algebra<br>
+                                        <input type="checkbox" name="units" value="SMA 2205">SMA 2205 Calculus<br>
+                                        <input type="checkbox" name="units" value="UCU 1001">UCU 1001 Communication Skills<br>
+                                        <input type="checkbox" name="units" value="UCU 1002">UCU 1002 Research Methods<br>
+                                        <input type="checkbox" name="units" value="ICS 1202">ICS 1202 Databases<br>
+
+                              <hr>
+                                        <input type="checkbox" name="units" value="ICS 2203">ICS 2203 Internet Programming<br>
+                                        <input type="checkbox" name="units" value="SMA 1000">SMA 1000 Foundations of Maths<br>
+                                        <input type="checkbox" name="units" value="SMA 2204">SMA 2201 Algebra<br>
+                                        <input type="checkbox" name="units" value="SMA 2205">SMA 2205 Calculus<br>
+                                        <input type="checkbox" name="units" value="UCU 1001">UCU 1001 Communication Skills<br>
+                                        <input type="checkbox" name="units" value="UCU 1002">UCU 1002 Research Methods<br>
+                                        <input type="checkbox" name="units" value="ICS 1202">ICS 1202 Databases<br>
+
+                              <hr>
+                              
+                              <h4>Give your motivation in choosing the units</h4>
+
+
+                              <textarea rows="10" cols="50">  
+                              </textarea>
+
+                             <hr>
+                             <h4>Choose your preferred hostel</h4>
+                                       <input type="radio" name="hostel" value="usambara">Usambara<br>
+                                       <input type="radio" name="hostel" value="lukenya">Lukenys<br>
+                                       <input type="radio" name="hostel" value="green gardens">Green Gardens<br>
+                                       <input type="radio" name="hostel" value="usalama">Usalama<br>
+                             <hr>  
+                                       <input type="submit"  value="Send">
+                                       <input type="reset"  value="Reset">
+                      </form>
+
+
+                  </fieldset>
+                          
+                                  <p>
+              	                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                 </p>  
+                                
                             </td>        
                         </tr>
                      </table>
                
 
-              </center>
+             
       </div>
 
-      <div id="footer">
-             <center>
+      <div id="footer" align="center">
+            
              	     <table bgcolor="#D1D0CE" width="50%">
                             <tr>
                                 <td>Cytonn investnments 2016</td>
@@ -83,7 +162,6 @@
 
              	     </table>
 
-             </center>
       </div>
 
 </div>      
